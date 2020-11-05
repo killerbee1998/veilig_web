@@ -3,21 +3,21 @@
 body{
   font-family: 'Lato', sans-serif;
   text-align: left;
-  /* background-color: #50C5B7; */
-  background-image: url('../image/green.jpg');
+  background-color: #f0f465;
+  /* background-image: url('../image/green.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .coloured-section{
-  margin-left: auto;
-  margin-right:auto;
   position: relative;
 }
 
 .container-fluid{
   background-color: #50C5B7;
-  width:50%;
+  width:30%;
+  min-width: 16em;
+  height: fit-content;
   padding:40px 70px;
   font-size: 24px;
   position: absolute;
