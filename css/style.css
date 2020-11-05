@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  /* background-color: #50C5B7; */
+  background-image: url('../image/green.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.container-fluid{
+  background-color: #50C5B7;
+  width:50%;
+  padding:40px 70px;
+  font-size: 24px;
+
+
+}
+.coloured-section{
+
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 100px;
+
+
+}
+.form-control{
+  background-color: #93E54F;
+  height: calc(2.5em + 0.75rem + 2px);
+  border: 1px solid #93E54F;
+}
+button{
+  font-family: 'Lato', sans-serif;
+}
+.btn{
+  margin-top: 10px;
+  -webkit-transition: background-color 0.5s ease-in-out,color 0.5s ease-in-out;
+  -moz-transition: background-color 0.5s ease-in-out,color 0.5s ease-in-out ;
+  -o-transition: background-color 0.5s ease-in-out,color 0.5s ease-in-out ;
+  transition: background-color 0.5s ease-in-out,color 0.5s ease-in-out ;
+}
+.btn:hover {
+  color:#fff;
+  background-color: #298A08;
+  border-color: #298A08;
+  cursor: pointer;
+
+}
+.btn-primary {
+    color: #000000;
+    background-color: #93E54F;
+    border-color: #93E54F;
+}
