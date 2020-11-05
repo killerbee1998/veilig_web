@@ -9,6 +9,18 @@ body{
   background-repeat: no-repeat;
 }
 
+#header{
+  font-size: 6rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#subheader{
+  font-size: 1.1rem;
+  text-align: center;
+}
+
 .coloured-section{
   position: relative;
 }
