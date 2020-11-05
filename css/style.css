@@ -32,6 +32,11 @@ body{
   border: 1px solid #93E54F;
 }
 
+.form-control:focus{
+  background-color: #93E54F;
+  height: calc(2.5em + 0.75rem + 2px);
+  border: 1px solid #93E54F;
+}
 
 .btn{
   margin-top: 10px;
