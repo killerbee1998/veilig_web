@@ -24,14 +24,16 @@ body{
 .coloured-section{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .container-form{
   background-color: #50C5B7;
   width:30%;
   min-width: 16em;
+  height: fit-content;
+  margin: 5rem;
   padding:40px 70px;
   font-size: 24px;
 }
