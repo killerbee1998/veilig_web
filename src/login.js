@@ -4,10 +4,12 @@ let email= ''
 let pass = ''
 
 jQuery(() => {
-    $('#btn-submit').on('click', () =>{
+    $('#btn-submit-login').on('click', () =>{
         email = $('#exampleInputEmail1').val()
         pass = $('#exampleInputPassword1').val()
-        login(ROOT_URL+"account/login", {email: email, pass: pass}).then( data =>{console.log(data)})
+        login(ROOT_URL+"account/login", {email: email, pass: pass})
+        .then( data =>{localStorage.setItem('login_data', JSON.stringify(data))})
+        .then(data => console.log(JSON.parse(localStorage.getItem('login_data'))))
     })    
 })
 
