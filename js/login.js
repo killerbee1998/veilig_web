@@ -9,7 +9,7 @@ jQuery(() => {
         pass = $('#exampleInputPassword1').val()
         login(ROOT_URL+"account/login", {email: email, pass: pass})
         .then( data =>{localStorage.setItem('login_data', JSON.stringify(data))})
-        .then(data => console.log(localStorage.getItem('login_data')))
+        .then(data => console.log(JSON.parse(localStorage.getItem('login_data'))))
     })    
 })
 
