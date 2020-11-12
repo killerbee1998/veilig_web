@@ -4,7 +4,7 @@ let email= ''
 let pass = ''
 
 jQuery(() => {
-    $('#btn-submit').on('click', () =>{
+    $('#btn-submit-register').on('click', () =>{
         email = $('#exampleInputEmail1').val()
         pass = $('#exampleInputPassword1').val()
         register(ROOT_URL+"account/register", {email: email, pass: pass}).then( data =>{console.log(data)})
